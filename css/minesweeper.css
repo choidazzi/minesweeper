@@ -1,0 +1,49 @@
+table{
+    border-collapse:collapse;
+}
+td{
+    border:1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.frame{
+    margin-bottom: 20px;
+}
+.mineCover{
+    background-color: #414141;
+}
+.selectDifficulty{
+    border:1px solid skyblue;
+    /* backgroud-color:rgba(0, 0, 0, 0); */
+    color: skyblue;
+    padding:5px;
+    margin-top:15px;
+}
+.hard{
+    color:red;
+}
+.normal{
+    color: blueviolet;
+}
+.easy{
+    color: green;
+}
+.mineFrame{
+    margin-top:20px;
+    display: inline-table;
+    border:1px solid black;
+    /* border-collapse: collapse; */
+    color: black;
+}
+#btnMineEasy{
+    margin-right:-4px;
+}
+#btnMineNormal{
+    margin-left:-3px;
+    margin-right:-4px;
+}
+#btnMineHard{
+    margin-left:-3px;
+}
